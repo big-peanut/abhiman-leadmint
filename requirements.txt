@@ -1,0 +1,6 @@
+PORT='3000'
+JWT_SECRET_KEY='sandeep'
+DB_NAME='chatapp'
+DB_USER='root'
+DB_PASSWORD='12345678'
+DB_HOST='localhost'
