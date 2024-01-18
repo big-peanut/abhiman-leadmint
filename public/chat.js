@@ -295,7 +295,7 @@ async function joinRoom(roomId) {
 
         if (choice) {
           // If the user chooses to spend coins, deduct 1 coin and attempt to join the room again
-          const paymentSuccess = await deductCoins(1);
+          const paymentSuccess = await deductCoins(150);
 
           if (paymentSuccess) {
             const roomId = localStorage.getItem("roomId");
