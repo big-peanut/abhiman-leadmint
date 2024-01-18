@@ -13,6 +13,7 @@ This project is about a Group Chat application.Where Users can create rooms and 
 1. Clone the repository to your machine.
 2. Navigate inside the project folder.
 3. Install all the dependencies inside package.json using npm install
+4. All secret keys are in a different file called requirements.txt
 
 ## Usage
 
