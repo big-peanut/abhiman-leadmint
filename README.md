@@ -31,4 +31,4 @@ This project is about a Group Chat application.Where Users can create rooms and 
 4. Only prime members can create group.Non-Prime members can join the first group for free after that non-prime users have to 150 coins.
 5. Users can be friends.
 6. Users can view profiles of other users.
-7. MySQl databse is used in the backend to store all the data. Sequelize is used to manage the database.
+7. MySQL databse is used in the backend to store all the data. Sequelize is used to manage the database.
