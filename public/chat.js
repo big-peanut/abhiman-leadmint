@@ -295,11 +295,10 @@ async function joinRoom(roomId) {
 
         if (choice) {
           // If the user chooses to spend coins, deduct 1 coin and attempt to join the room again
+          localStorage.setItem("roomId", roomId);
           const paymentSuccess = await deductCoins(150);
-
           if (paymentSuccess) {
-            const roomId = localStorage.getItem("roomId");
-            joinRoom(roomId);
+            nonPrimeJoinRoom();
           } else {
             alert("Payment failed");
           }
