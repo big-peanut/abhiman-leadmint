@@ -1,8 +1,8 @@
 // Import Sequelize for defining models
-const Sequelize = require("sequelize");
+//const Sequelize = require("sequelize");
 
 // Import the sequelize instance for connecting to the database
-const sequelize = require("../utils/database");
+//const sequelize = require("../utils/database");
 
 // // Import the Rooms model for reference in the messages table
 // const Rooms = require("../models/roomModel");
